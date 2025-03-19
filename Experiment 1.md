@@ -5,5 +5,5 @@ create all three subdirectories at the same time.
 Approach- Use the touch command with brace expansion to create the files and the mkdir command with space-separated names to create the directories.
 ![image](https://github.com/user-attachments/assets/65caf1cb-12de-44dc-9f87-3662f8985d9a)
 commands used:
-touch song{1..o}.mp3 snap{1..6• jpg filmf1..o}.avi
+touch song{1..6}.mp3 snap{1..6}.jpg film{1..6}.avi
 mkdir family friends work
